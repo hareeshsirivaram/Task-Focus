@@ -1,16 +1,69 @@
-# React + Vite
+# 🧠 TaskFocus — Task Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**TaskFocus** is a responsive and intuitive **Task Management System** built using **ReactJS** and **CSS**.  
+It helps users organize, track, and manage their daily tasks efficiently with a clean and minimal user interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- ✅ **Add, Edit, and Delete Tasks**
+- 🕒 **Track Task Status** (Pending / Completed)
+- 📅 **Set Priorities and Deadlines**
+- 💾 **Persistent Data Storage** (via browser local storage)
+- 📱 **Responsive Design** – optimized for both mobile and desktop
+- 🎨 **Modern UI** using custom CSS styling
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Category | Technology |
+|-----------|-------------|
+| **Frontend** | ReactJS |
+| **Styling** | CSS (Flexbox, Grid, and Media Queries) |
+| **State Management** | React Hooks (`useState`, `useEffect`) |
+| **Storage** | Local Storage API |
+| **Version Control** | Git & GitHub |
+
+---
+
+## 📸 Screenshots
+
+> *(You can add screenshots of your app interface here for better presentation.)*
+
+Example:
+
+---
+
+## ⚙️ Installation & Setup
+
+Follow these steps to run the project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/hareeshsirivaram/Task-Focus.git
+
+# Navigate into the project folder
+cd Task-Focus
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
+
+Once started, open http://localhost:3000 in your browser to view the app.
+
+Folder Structure
+Task-Focus/
+│
+├── public/               # Static files
+├── src/
+│   ├── components/       # Reusable UI components
+│   ├── App.js            # Root React component
+│   ├── App.css           # Global styling
+│   ├── index.js          # Entry point
+│   └── ...other files
+├── package.json
+└── README.md
