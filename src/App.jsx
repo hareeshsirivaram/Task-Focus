@@ -1,4 +1,3 @@
-
 import Taskform from "./Components/Taskform";
 import TaskList from "./Components/TaskList";
 import Progresstracker from "./Components/Progresstracker";
@@ -26,16 +25,24 @@ export default function App() {
     setTasks(tasks.filter((_, i) => i != index));
   }
 
+  const clearTasks = ()=>{
+    setTasks([]);
+   }
+
   return(
-    <div>
-      <h1>Task Focus</h1>
-      <p>Our friendly TaskManager</p>
+    <div className='App'>
+      <header>
+        <h1 className='title'>TaskBuddy</h1>
+        <p className='tagline'>Your friendly Task Manager</p>
+      </header>
       <Taskform addTask ={addTask}/>
       <TaskList tasks = {tasks}
       updateTask = {updateTask}
       deleteTask = {deleteTask} />
       <Progresstracker tasks = {tasks}/>
-      <button>Clear all tasks</button>
+      
+      {tasks.length>0 && (<button className='clear-btn' 
+      onClick={clearTasks}>Clear All Tasks</button>)}
     </div>
   )
 }
