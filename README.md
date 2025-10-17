@@ -30,7 +30,8 @@ It helps users organize, track, and manage their daily tasks efficiently with a 
 
 ## 📸 Screenshots
 
-> *(You can add screenshots of your app interface here for better presentation.)*
+> *<img width="2870" height="1608" alt="image" src="https://github.com/user-attachments/assets/dad33c6a-c0d5-4911-962f-716a43b1de7b" />
+*
 
 Example:
 
