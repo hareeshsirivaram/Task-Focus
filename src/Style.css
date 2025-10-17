@@ -1,0 +1,16 @@
+/* Progress Tracker CSS*/
+.progress-tracker {
+  margin-top: 16px;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #eeeeee;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  background: #33b94b;
+}
